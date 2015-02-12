@@ -4,7 +4,8 @@ CommonJS/AMD wrapper for Oracle's deployJava.js
 
 ## Install
 
-    bower install deployjava
+    bower install tomtwo/deployjava
+    npm install tomtwo/deployjava
 
 ## Usage
 
