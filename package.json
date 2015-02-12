@@ -1,0 +1,17 @@
+{
+  "name": "deployjava",
+  "version": "1.0.0",
+  "description": "CommonJS wrapper for Oracle's deployJava.js",
+  "main": "deployjava.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deployjava",
+    "deploy",
+    "java",
+    "jre"
+  ],
+  "author": "tomtwo",
+  "license": "LICENSE.md"
+}

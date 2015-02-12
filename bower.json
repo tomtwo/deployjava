@@ -1,0 +1,27 @@
+{
+  "name": "deployjava",
+  "version": "1.0.0",
+  "authors": [
+    "tomtwo"
+  ],
+  "description": "Bower package for deployJava.js",
+  "main": "deployjava.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "deployjava",
+    "java",
+    "jre"
+  ],
+  "license": "LICENSE.md",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
