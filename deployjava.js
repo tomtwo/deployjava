@@ -1102,7 +1102,7 @@
         }
 
         for (var i = 0; i < navigator.mimeTypes.length; ++i) {
-            s = navigator.mimeTypes[i].type;
+            var s = navigator.mimeTypes[i].type;
             var m = s.match(/^application\/x-java-applet\x3Bversion=(1\.8|1\.7|1\.6|1\.5|1\.4\.2)$/);
             if (m != null) {
                 if (this.compareVersions(m[1], version)) {
@@ -1120,7 +1120,7 @@
         var platform = navigator.platform.toLowerCase();
 
         for (var i = 0; i < navigator.plugins.length; ++i) {
-            s = navigator.plugins[i].description;
+            var s = navigator.plugins[i].description;
             if (s.search(/^Java Switchable Plug-in (Cocoa)/) != -1) {
                 // Safari on MAC
                 if (this.compareVersions("1.5.0", version)) {
